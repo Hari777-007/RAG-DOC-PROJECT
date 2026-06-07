@@ -1,0 +1,17 @@
+langchain
+langchain-openai
+langchain-community
+langgraph
+openai
+python-dotenv
+faiss-cpu
+pydantic
+python-dotenv
+beautifulsoup4
+requests
+streamlit
+wikipedia
+groq
+langchain-groq
+langchain_ollama
+pypdf
