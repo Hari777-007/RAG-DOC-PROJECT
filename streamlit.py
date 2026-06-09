@@ -111,9 +111,9 @@ def main():
 
         for item in reversed(st.session_state.history[-3:]):
             with st.container():
-                st.markdown(f"**Q:** {item["question"]}")
-                st.markdown(f"**A:** {item["answer"][:200]}...")
-                st.caption(f"Time:{item["time"]:.2f}s")
+                st.markdown(f"**Q:** {item['question']}")
+                st.markdown(f"**A:** {item['answer'][:200]}...")
+                st.caption(f"Time:{item['time']:.2f}s")
                 st.markdown("")
 
 if __name__ =="__main__":
